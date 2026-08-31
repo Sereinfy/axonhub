@@ -421,7 +421,7 @@ cd axonhub
 umask 077
 cat > .env <<'EOF'
 DB_PASSWORD=replace-with-a-long-random-password
-AXONHUB_IMAGE=looplj/axonhub@sha256:replace-with-axonhub-digest
+AXONHUB_IMAGE=ghcr.io/sereinfy/axonhub@sha256:replace-with-axonhub-digest
 POSTGRES_IMAGE=postgres@sha256:replace-with-postgres-digest
 EOF
 

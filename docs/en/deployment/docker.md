@@ -197,7 +197,7 @@ umask 077
 cat > .env <<'EOF'
 DB_PASSWORD=replace-with-a-long-random-password
 # Replace both placeholders with the exact published image digests.
-AXONHUB_IMAGE=looplj/axonhub@sha256:replace-with-axonhub-digest
+AXONHUB_IMAGE=ghcr.io/sereinfy/axonhub@sha256:replace-with-axonhub-digest
 POSTGRES_IMAGE=postgres@sha256:replace-with-postgres-digest
 EOF
 ```

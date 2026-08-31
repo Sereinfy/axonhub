@@ -197,7 +197,7 @@ umask 077
 cat > .env <<'EOF'
 DB_PASSWORD=替换为足够长的随机密码
 # 请将两个占位符替换为实际发布镜像的 digest。
-AXONHUB_IMAGE=looplj/axonhub@sha256:replace-with-axonhub-digest
+AXONHUB_IMAGE=ghcr.io/sereinfy/axonhub@sha256:replace-with-axonhub-digest
 POSTGRES_IMAGE=postgres@sha256:replace-with-postgres-digest
 EOF
 ```
