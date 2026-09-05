@@ -126,6 +126,8 @@ export function mergeChannelSettingsForUpdate(
     rateLimit: pick('rateLimit', existing?.rateLimit ?? null),
     retryableStatusCodes: pick('retryableStatusCodes', existing?.retryableStatusCodes ?? []),
     retryableErrorPatterns: pick('retryableErrorPatterns', existing?.retryableErrorPatterns ?? []),
+    modelProtocols: pick('modelProtocols', existing?.modelProtocols ?? []),
+    providerQuota: pick('providerQuota', existing?.providerQuota ?? null),
   };
 }
 
